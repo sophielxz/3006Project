@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+
+<style>
+@font-face {
+    font-family:MontserattBold;
+    src: url(montserrat.bold.ttf);}
+    @font-face {
+    font-family:MontserattRegular;
+    src: url(montserrat.regular.ttf);}
+input {
+    width:45%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    background-color: #0e5e5f;
+    color: white;
+}
+label {
+    font-family: 'Lucida Grande',Lucida,Verdana,sans-serif;
+    font-size: 24px;
+}
+div {
+    text-align: center;
+}
+p {
+    font-family: MontserattBold;
+    text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+
+<header>
+<a href=Home.html> <img src= "SophisticationLogo.png", height="auto", width="300px", class="center"> 
+
+  <ul>
+    <li>Home<a href="Home.html"></a></li>
+      <li><a href="AboutUs.html">About Us</a></li>
+      <li><a href="CustomerTestamonials.html">Customer Testamonials</a></li>
+      <li><a href="ContactUs.html">Contact Us</a></li>
+  </ul>
+</header>
+
+<body>
+<p class="center">To contact us, please fill in this form below and we will get back to you as soon as possible!</p>
+  
+<form>
+<div>
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+</div>
+
+<div>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+</div>
+
+<div>
+    <label for="email">Email Address:</label><br>
+    <input type="text" id="email" name="email"><br>
+</div>
+
+<div>
+    <label for="comment">Any Comments:</label><br>
+    <input type="text" id="comment" name="comment">
+</div>
+
+<div>
+    <input type="submit" value="Submit">
+</div>
+
+</form>
+
+</body>
+</html>

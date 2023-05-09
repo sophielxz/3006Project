@@ -1,0 +1,35 @@
+@font-face {font-family: Montseratt; src: url('montserrat.regular.ttf')};
+
+
+h1 {
+    text-align: right;
+    font-family: Montseratt;
+    display: inline-block;
+    padding-inline: 410px;
+    font-size: 45px;
+}
+li {
+    display: inline;
+    float: left;
+    font-family:'Lucida Grande',Lucida,Verdana,sans-serif;
+    font-size: 15px;
+    
+    
+}
+li a {
+    display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+    background-color: #0e5e5f
+}
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#5a9599;
+}
